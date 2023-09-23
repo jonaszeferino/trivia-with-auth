@@ -1,0 +1,69 @@
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar li {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .navbar li:last-child {
+    border-bottom: none;
+  }
+
+  .navbar a {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+/*Como estava dia 28/03/23*/
+.navbar {
+  list-style-type: none;
+  font-family: "JetBrains Mono", monospace;
+  font-size: large;
+  display: flex;
+  background-image: linear-gradient(to right, #2951d4, #4148d3);
+  padding: 40px 20px;
+  margin-top: 0%;
+  text-align: center;
+  justify-content: center;
+}
+
+.navbar a {
+  list-style-type: none;
+  color: whitesmoke;
+  margin-right: 1em;
+  text-decoration: none;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.navbar a:hover {
+  list-style-type: none;
+  color: rgb(74, 119, 234);
+  text-align: center;
+}
+
+@media (max-width: 100%) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar li {
+    display: block;
+    border: none;
+    text-align: center;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .navbar li:last-child {
+    border-bottom: 1px solid white;
+  }
+}
+
+/*Teste*/
