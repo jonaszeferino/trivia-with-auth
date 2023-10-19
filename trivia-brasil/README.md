@@ -33,7 +33,7 @@ NPM INSTALL
 - Vercel (connected to GitHub)
 
 ## EXTERNALL API
-https://the-trivia-api.com
+- https://the-trivia-api.com
 
 
 
