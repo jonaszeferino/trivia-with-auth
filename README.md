@@ -35,5 +35,8 @@ NPM INSTALL
 ## EXTERNALL API
 - https://the-trivia-api.com
 
+## Next Stpes
+- Build your own trivia questions
+
 
 
